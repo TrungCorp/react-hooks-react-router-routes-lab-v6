@@ -23,6 +23,11 @@ const routes = [
     path: "/movie/:id",
      element: <Movie />,
      errorElement: <ErrorPage />
+   },
+   {
+     path: "/bad-route",
+     element: <ErrorPage />,
+     errorElement: <ErrorPage />
    }
   ];
 
